@@ -40,7 +40,8 @@ main {
 }
 
 .navbar::-webkit-scrollbar {
-  width: 0.25rem;
+  display: none;
+  width: 0;
 }
 
 .navbar-nav {
