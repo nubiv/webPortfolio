@@ -39,6 +39,10 @@ main {
   z-index: 9999;
 }
 
+.navbar::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
 .navbar-nav {
   list-style: none;
   padding: 0;
@@ -265,3 +269,10 @@ iframe {
   color: #595757;
   margin-bottom: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .card-footer {
+    display: none;
+  }
+}
+
