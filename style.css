@@ -9,7 +9,7 @@
 
 body {
   color: black;
-  background-color: white;
+  background-color: #c7c3c3;
   margin: 0;
   padding: 0;
 }
@@ -36,6 +36,7 @@ main {
   background-color: var(--bg-primary);
   transition: width 600ms ease;
   overflow: scroll;
+  z-index: 9999;
 }
 
 .navbar-nav {
@@ -220,4 +221,40 @@ main {
 
 .carousel-control-next {
   opacity: 0.1;
+}
+
+.card-footer {
+  padding: 40px 0;
+  background-color: #c7c3c3;
+  color: #4b4c4d;
+  opacity: 0.5;
+}
+
+.card-footer .social {
+  text-align: center;
+}
+
+.card-footer .social > a {
+  font-size: 24px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.card-footer .social > a:hover {
+  opacity: 1;
+}
+
+.card-footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #595757;
+  margin-bottom: 0;
 }
