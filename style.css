@@ -213,3 +213,11 @@ main {
 .solar #solarIcon {
   display: block;
 } 
+
+.carousel-control-prev {
+  opacity: 0.1;
+}
+
+.carousel-control-next {
+  opacity: 0.1;
+}
