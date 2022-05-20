@@ -137,6 +137,7 @@ main {
     bottom: 0;
     width: 100vw;
     height: 5rem;
+    padding: 0;
   }
 
   .logo {
@@ -150,6 +151,7 @@ main {
   .nav-link {
     justify-content: center;
   }
+
 
   main {
     margin: 0;
@@ -229,9 +231,18 @@ main {
   opacity: 0.1;
 }
 
+/* project section */
 iframe {
   width: 100%;
   height: 350px;
+}
+
+/* form */
+.contact {
+  padding: 50px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* footer */
@@ -273,7 +284,7 @@ iframe {
 
 @media only screen and (max-width: 600px) {
   .card-footer {
-    display: none;
+    padding: 80px 0;
   }
 }
 
