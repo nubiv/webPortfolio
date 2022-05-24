@@ -32,6 +32,10 @@ main {
   padding: 1rem;
 }
 
+h1 {
+    font-family: 'Dancing SScript', cursive;
+}
+
 .navbar {
   position: fixed;
   background-color: var(--bg-primary);
@@ -251,13 +255,18 @@ main {
 
 .about-title {
   font-size: 3rem;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 .about-description {
   font-size: 1.15rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .about {
+    margin-bottom: 15rem;
+  }
+}
 /* project section */
 .project {
   margin-top: 10rem;
@@ -268,7 +277,11 @@ iframe {
 }
 
 .project-title {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: 'Dancing SScript', cursive;
 }
 
 /* gallery section */
@@ -298,9 +311,13 @@ iframe {
   margin-right: auto;
 }
 
+.contact legend {
+  font-family: 'Dancing SScript', cursive;
+}
+
 /* footer */
 .card-footer {
-  padding: 40px 0;
+  padding: 20px 0;
   background-color: #c7c3c3;
   color: #4b4c4d;
   opacity: 0.5;
@@ -337,7 +354,7 @@ iframe {
 
 @media only screen and (max-width: 600px) {
   .card-footer {
-    padding: 80px 0;
+    margin-bottom: 5rem;
   }
 }
 
