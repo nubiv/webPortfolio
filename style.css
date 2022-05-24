@@ -286,6 +286,10 @@ iframe {
   color: var(--text-primary);
 }
 
+.gallery img {
+  height: 500px;
+}
+
 /* form */
 .contact {
   padding: 50px 0;
