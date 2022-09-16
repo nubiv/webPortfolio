@@ -6,8 +6,9 @@ const themeMap = {
 
 const theme = localStorage.getItem('theme')
   || (tmp = Object.keys(themeMap)[0],
-      localStorage.setItem('theme', tmp),
-      tmp);
+    localStorage.setItem('theme', tmp),
+    tmp);
+
 const bodyClass = document.body.classList;
 bodyClass.add(theme);
 
@@ -20,3 +21,6 @@ function toggleTheme() {
 }
 
 document.getElementById('themeButton').onclick = toggleTheme;
+
+// Random facts
+// fetch("https://uselessfacts.jsph.pl/random.json?language=en").then(res => res.json()).then(json => console.log(json.text))
